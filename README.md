@@ -40,20 +40,20 @@ graph TB
 ```mermaid
 graph TB
     Root[opd/]
-    README[README.md<br/>项目说明]
+    README[README.md 项目说明]
     Docs[docs/]
     Specs[规范体系/]
     Templates[模板库/]
     
-    Spec1[一人AI开发工程规范总纲.md<br/>总纲性文档]
-    Spec2[数字员工角色定义手册.md<br/>角色定义详解]
-    Spec3[开发流程执行指南.md<br/>六阶段开发流程]
-    Spec4[质量保障体系手册.md<br/>四层质量保障模型]
-    Spec5[协作机制与通信协议.md<br/>协作模式与通信协议]
-    Spec6[检查清单与模板库.md<br/>检查清单与标准模板]
-    Spec7[实际操作指南.md<br/>⭐核心操作指导]
-    Spec8[项目执行操作示例.md<br/>完整项目演示]
-    Temp1[数字员工激活提示词模板.md<br/>可复制的提示词模板]
+    Spec1[一人AI开发工程规范总纲.md]
+    Spec2[数字员工角色定义手册.md]
+    Spec3[开发流程执行指南.md]
+    Spec4[质量保障体系手册.md]
+    Spec5[协作机制与通信协议.md]
+    Spec6[检查清单与模板库.md]
+    Spec7[实际操作指南.md]
+    Spec8[项目执行操作示例.md]
+    Temp1[数字员工激活提示词模板.md]
     
     Root --> README
     Root --> Docs
@@ -68,11 +68,6 @@ graph TB
     Specs --> Spec7
     Specs --> Spec8
     Templates --> Temp1
-    
-    style Root fill:#4F46E5,color:#fff
-    style Docs fill:#059669,color:#fff
-    style Specs fill:#D97706,color:#fff
-    style Templates fill:#DC2626,color:#fff
 ```
 
 ---
@@ -110,12 +105,12 @@ graph TB
 
 ```mermaid
 graph LR
-    S1[需求与规划<br/>SDA]
-    S2[设计与架构<br/>SDA]
-    S3[开发与实现<br/>SEA]
-    S4[测试与验证<br/>STA+SRA]
-    S5[部署与交付<br/>HD]
-    S6[运营与迭代<br/>全员]
+    S1[需求与规划 SDA]
+    S2[设计与架构 SDA]
+    S3[开发与实现 SEA]
+    S4[测试与验证 STA+SRA]
+    S5[部署与交付 HD]
+    S6[运营与迭代 全员]
     
     S1 --> S2 --> S3 --> S4 --> S5 --> S6
 ```
@@ -126,12 +121,12 @@ graph LR
 
 ```mermaid
 graph LR
-    P1[阶段一: 需求与规划<br/>SDA]
-    P2[阶段二: 设计与架构<br/>SDA]
-    P3[阶段三: 开发与实现<br/>SEA]
-    P4[阶段四: 测试与验证<br/>STA+SRA]
-    P5[阶段五: 部署与交付<br/>HD]
-    P6[阶段六: 运营与迭代<br/>全员]
+    P1[阶段一 需求与规划 SDA]
+    P2[阶段二 设计与架构 SDA]
+    P3[阶段三 开发与实现 SEA]
+    P4[阶段四 测试与验证 STA+SRA]
+    P5[阶段五 部署与交付 HD]
+    P6[阶段六 运营与迭代 全员]
     
     P1 --> P2 --> P3 --> P4 --> P5 --> P6
 ```
@@ -144,10 +139,10 @@ graph LR
 
 ```mermaid
 graph TB
-    L4[第四层: 项目级质量<br/>需求覆盖率100%<br/>验收测试通过<br/>文档完整齐全]
-    L3[第三层: 系统级质量<br/>端到端测试通过<br/>安全测试通过<br/>性能测试达标]
-    L2[第二层: 模块级质量<br/>接口契约验证<br/>集成测试通过<br/>性能基准达标]
-    L1[第一层: 代码级质量<br/>编码规范检查<br/>单元测试覆盖<br/>代码审查通过]
+    L4[第四层 项目级质量]
+    L3[第三层 系统级质量]
+    L2[第二层 模块级质量]
+    L1[第一层 代码级质量]
     
     L4 --> L3 --> L2 --> L1
 ```
