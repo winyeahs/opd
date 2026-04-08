@@ -87,6 +87,12 @@ graph TB
     Skills --> Skill6
     Skills --> Templates
     Specs --> Spec1
+    Specs --> Skill1
+    Specs --> Skill2
+    Specs --> Skill3
+    Specs --> Skill4
+    Specs --> Skill5
+    Specs --> Skill6
     Templates --> Temp1
     Templates --> Temp2
     Templates --> Temp3
@@ -145,8 +151,6 @@ OPD技能包是一套可导入Qoder使用的标准化开发流程技能，包含
 └── ...
 ```
 
----
-
 ## 快速开始
 
 ### 第一步：了解核心概念
@@ -204,8 +208,6 @@ graph LR
 | 阶段四 | **真实浏览器QA**：使用 Playwright 进行端到端测试 ⚠️ |
 
 > ⚠️ 标记的阶段需要长时间连续执行，不可中断
-
----
 
 ## 质量保障体系
 
@@ -353,8 +355,6 @@ graph TB
 | **阶段六：运维与迭代** | [问题分析报告](opd/templates/阶段六运维与迭代/问题分析报告.md) | ⭐⭐⭐ |
 | **阶段六：运维与迭代** | [迭代计划](opd/templates/阶段六运维与迭代/迭代计划.md) | ⭐⭐⭐ |
 | **阶段六：运维与迭代** | [优化建议](opd/templates/阶段六运维与迭代/优化建议.md) | ⭐⭐⭐ |
-
----
 
 ## 常见问题
 
